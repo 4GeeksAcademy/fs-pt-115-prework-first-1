@@ -1,0 +1,73 @@
+/* Estilo global divertido */
+
+body {
+    background-image: url("https://livestorm.imgix.net/1127/1642690942-funny_001.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.tinder-card {
+  background-color: white;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin: 0 auto;
+ 
+}
+
+.tinder-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.icons {
+  font-size: 20px;
+  color: #888;
+  display: flex;
+}
+
+.icons div{
+  margin: 0 6px;
+}
+
+.profile-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.info {
+  padding: 15px;
+}
+
+.info h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.info span {
+  font-weight: normal;
+  color: #777;
+}
+
+.distance {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #333;
+}
